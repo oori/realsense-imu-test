@@ -39,3 +39,13 @@ Caprinae IMU test
 `110`: 2B - fast gait  
 `120`: 1B - fast gait  
 
+# Baseline recordings
+All recordings are 10s long
+
+`static`: no movement
+`static_facing_down/up`: no movement, camera rolled
+`move30`: move (approx) 30cm on toy car (manually pushed)
+`move30_r30`: (as above) and reverse 30cm
+`drag30`: drag over the table 30cm
+`drag30_U`: (as above) and U-Turn (180deg) and return
+`drag40_U`: (as above) 40cm
